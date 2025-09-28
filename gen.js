@@ -1,5 +1,5 @@
 const fs = require('fs');
-const config = require('./config.json');
+const config = require('./config.js');
 module.exports = {
     getAlt: (type) => {
         if(!fs.existsSync(`./alts/${type}.txt`)) return '';
