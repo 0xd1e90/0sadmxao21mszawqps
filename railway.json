@@ -1,6 +1,6 @@
 {
   "build": {
     "installCommand": "npm install",
-    "startCommand": "npm start"
+    "startCommand": "node bot.js"
   }
 }

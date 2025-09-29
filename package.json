@@ -4,11 +4,13 @@
   "description": "A simple command handler for discord bots.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wntd",
   "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "better-sqlite3": "^7.4.1",
     "discord": "^0.8.2",
