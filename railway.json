@@ -1,6 +1,6 @@
 {
-  build {
-    installCommand npm install,
-    startCommand npm start
+  "build": {
+    "installCommand": "npm install",
+    "startCommand": "npm start"
   }
 }
